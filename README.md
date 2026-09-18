@@ -124,10 +124,12 @@ before the figure scripts; those steps write the objects everything else reads.
 
 | Dataset | Source |
 | --- | --- |
-| Mouse single-cell RNA-seq and TCR-seq generated for this study | GEO — accession listed in the paper's data availability statement |
-| Mouse ATAC-seq generated for this study | GEO — accession listed in the paper's data availability statement |
+| Single-cell RNA-seq, TCR-seq and ATAC-seq generated for this study (42 samples) | GEO [**GSE347457**](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347457) |
 | Reference ATAC-seq for the joint PCA (public) | GEO [GSE86797](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE86797) |
 | Naïve / memory / effector / exhausted CD8 epigenetic landscapes from LCMV clone 13 (public) | GEO [GSE149879](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149879) |
+
+GSE347457 is a SuperSeries: the transcriptomic and the chromatin-accessibility
+data are both reached through it, as SubSeries.
 
 ### Upstream processing happens before these scripts
 
