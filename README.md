@@ -166,8 +166,9 @@ The scripts start from **count matrices and consensus peaks**, not FASTQ files:
 
 ## Contact
 
-Jian Cui — computational analysis
-Department of Immunology, University of Pittsburgh
+**Jian Cui** — Senior Bioinformatics Scientist  
+Vignali Lab, Department of Immunology  
+School of Medicine, University of Pittsburgh
 
 ## License
 
