@@ -1,0 +1,89 @@
+# ---------------------------------------------------------------------------
+# This repository contains analysis code only.
+# No sequencing data, no intermediate objects, no figure output.
+# ---------------------------------------------------------------------------
+
+# Single-cell / genomics objects and any serialised R data
+*.rds
+*.RDS
+*.RData
+*.rdata
+*.rda
+*.Rhistory
+*.h5
+*.h5ad
+*.h5seurat
+*.loom
+*.mtx
+*.mtx.gz
+*.barcodes.tsv
+*.features.tsv
+*.genes.tsv
+
+# Sequencing / alignment data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.cram
+*.bed
+*.bedGraph
+*.bw
+*.bigWig
+*.narrowPeak
+*.broadPeak
+
+# Figures and rendered output (the repository logo is allowed below)
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.pdf
+*.svg
+*.eps
+
+# Office / manuscript files
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.7z
+
+# Result directories (kept as empty placeholders)
+1.Data/**
+!1.Data/
+!1.Data/*/
+!1.Data/**/.gitkeep
+!docs/logo.png
+3.Output/**
+!3.Output/
+!3.Output/*/
+!3.Output/**/.gitkeep
+
+# R / RStudio / IDE
+.Rproj.user/
+.Rapp.history
+*.Rproj
+.Ruserdata
+.RData
+renv/library/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
